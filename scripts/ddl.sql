@@ -16,11 +16,7 @@ CREATE TABLE book (
 	CONSTRAINT book_pkey PRIMARY KEY (book_id)
 );
 
--- bms.store definition
 
--- Drop table
-
--- DROP TABLE store;
 
 CREATE TABLE store (
 	store_id serial4 NOT NULL,
