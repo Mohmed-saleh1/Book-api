@@ -1,6 +1,6 @@
  const pool = require('./pool');
 
-    exports.query = (QueryText,QueryParams)=>{
+    exports.dbQuery = (QueryText,QueryParams)=>{
 
         return new Promise((resolve,reject)=>{
 
