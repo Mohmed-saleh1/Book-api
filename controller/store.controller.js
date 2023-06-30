@@ -29,12 +29,12 @@ exports.saveStore =async (req,res)=>{
         }
         values = [storeName,address,createdBy,createdOn,storeCode]
         var saveStoreQuery = queries.queryList.SAVE_STORE_QUERY;
-        await dbConnection.dbQuery(saveStoreQuery); 
+        await dbConnection.dbQuery(saveStoreQuery);
 
         return res.status(200).send('Successfully store created');
 
     } catch (error) {
-          console.log("Error : "+error);
+          console.log("Error : " + error);
         return res.status(500).send({error:'Failed to list stores'});
   
     }
