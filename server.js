@@ -20,5 +20,6 @@
  app.use('/api/vi',noteRouter);
 
  app.listen(3000,()=>{
-    console.log("Server start .......");
+    console.log("Server start .......touch README.md
+");
  })
